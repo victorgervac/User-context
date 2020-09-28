@@ -9,6 +9,9 @@ const NavBar = () => {
         <Link to="/">
           <Menu.Item style={styles.item}>Home</Menu.Item>
         </Link>
+        <Link to="/userProfile">
+          <Menu.Item style={styles.item}>User Profile</Menu.Item>
+        </Link>
         <Link to="/thingsDemo">
           <Menu.Item style={styles.item}>Things</Menu.Item>
         </Link>
